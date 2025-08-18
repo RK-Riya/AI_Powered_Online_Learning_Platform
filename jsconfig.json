@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/utils": ["./lib/utils"]   // ✅ direct mapping
+    }
+  }
+}
